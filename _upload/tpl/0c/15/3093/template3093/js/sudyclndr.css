@@ -1,0 +1,115 @@
+﻿
+.none{display:none;}
+.sudyclndr {position: relative;font-size: 14px;color: #565656;font-family: "Microsoft YaHei",Tahoma, Geneva, sans-serif;border: 0px solid #CBD0E2;}
+.sudyclndr a {color: #fff;cursor: pointer;font-size: 12px;font-weight: normal;}
+.sudyclndr a:hover { text-decoration: none;}
+.sudyclndr .clndr-controls {height: 34px;line-height: 34px;background: #133269;position: relative;padding: 0;z-index: 99;}
+.sudyclndr .clndr-controls .clndr-nav {display: block;width: 68px;height: 34px;line-height: 34px;position: absolute;z-index:1000;top: 0;margin-top: 0;color: #1c92d2;font-size: 12px;font-family: "Microsoft YaHei";text-align: center;cursor: pointer;font-weight: normal;text-decoration: none;}
+.clndr-year {position: absolute;right: 50%;line-height: 34px;margin-right: -42px;}
+.sudyclndr .clndr-controls .clndr-nav.clndr-rili {width:80px;margin-left:22px;display: none;}
+.clndr-nav.clndr-rili span {font-size: 20px;font-weight: bold;}
+
+.clndr-days-week th, .clndr-days-table td {border: none;}
+
+.sudyclndr .clndr-controls .clndr-prev {right: auto;left: 0;}
+.sudyclndr .clndr-controls .clndr-current {right: 72px;background: #9d6da7}
+.sudyclndr .clndr-controls .clndr-next { right:0;}
+.sudyclndr .clndr-controls .clndr-dates {text-align: left;position: relative;/* margin-right: 145px; */}
+.sudyclndr .clndr-controls .clndr-dates a {margin:0 1px; font-family"songti";}
+
+.sudyclndr .clndr-container {position: relative;overflow: hidden;min-height: 102px;height: 180px !important;background: rgba(255, 255, 255, 0.8);}
+.sudyclndr .clndr-container .clndr-days {position: absolute;width: 250px;left: auto !important;top: 0;z-index:5;}
+.sudyclndr .clndr-container .clndr-days-week {background: rgba(255, 255, 255, 0.8);color: #333;width: 211px !important;}
+.sudyclndr .clndr-container .clndr-days-week .clndr-week {font-weight: normal;width: 30px !important;}
+.sudyclndr .clndr-container .clndr-days-week .clndr-week.clndr-week-0{/* background: #d3ecff; */}
+
+.sudyclndr .clndr-container .clndr-days-week .clndr-week .week-box {height: 34px;width: 35px;line-height: 34px;text-align: center;border-right: 0;font-size: 12px;color: #62605f;font-weight: normal;float: left;}
+.sudyclndr .clndr-container .clndr-days-wrap .clndr-day .day-box {height: 29px;line-height: 29px;text-align: left;cursor: pointer;position: relative;background: rgba(255, 255, 255, 0.8);margin: 0;}
+.sudyclndr .clndr-container .clndr-days-wrap .clndr-day-w .day-box {border-left:none;background: #d3ecff;}
+.sudyclndr .clndr-container .clndr-days-wrap .clndr-day .day-box .day-number {color: #62605f;display: block;height: 29px;cursor: pointer;-webkit-transition: background-color 0s;-moz-transition: background-color 0s;-ms-transition: background-color 0s;-o-transition: background-color 0s;transition: background-color 0s;font-family: "Microsoft Yahei";font-size: 12px;font-weight: normal;}
+.sudyclndr .clndr-container .clndr-days-wrap .clndr-day .day-box .day-number .day-note{display:inline-block; width:100%;font-size:13px; text-align:right;}
+
+.sudyclndr .clndr-container .clndr-days-week .clndr-week-0 .week-box,
+.sudyclndr .clndr-container .clndr-days-wrap .clndr-day-5 .day-box .day-number,
+.sudyclndr .clndr-container .clndr-days-wrap .clndr-day-6 .day-box .day-number{color: #62605f;}
+.sudyclndr .clndr-container .clndr-days-week .clndr-week.clndr-week-6 .week-box,
+.sudyclndr .clndr-container .clndr-days-week .clndr-week.clndr-week-7 .week-box {color: #333;}
+
+.sudyclndr .clndr-container .clndr-days-week .clndr-week-0 .week-box,
+.sudyclndr .clndr-container .clndr-days-wrap .clndr-day-w .day-box .day-number{color: #62605f;margin: 0 auto;}
+.sudyclndr .clndr-container .clndr-days-wrap .clndr-day .day-box .day-number.selected:{background: #630560;color: #fff;}
+.sudyclndr .clndr-container .clndr-days-wrap .clndr-day .day-box .day-number:hover {background: #18306f;color:#fff;width: auto;margin: 0 auto;}
+.sudyclndr .clndr-container .clndr-days-wrap .clndr-day-out .day-box .day-number:hover {color: transparent;background: transparent;cursor: text;}
+.sudyclndr .clndr-container .clndr-days-wrap .clndr-day-out .day-box .day-number {color: transparent;/*background: rgba(255,255,255,.8);*/}
+.sudyclndr .clndr-container .clndr-days-wrap .clndr-has-events .day-box .day-number {background: #5db7e8;color: #fff;}
+
+.sudyclndr .clndr-container .clndr-days-wrap .clndr-day-cur .day-box{ /*background: #fff;*/}
+.sudyclndr .clndr-container .clndr-days-wrap .clndr-today .day-box{/*border: 1px solid  #4778cf;*//*width: 30px;*/margin: 0 auto;color: #fff;background: none;}
+.sudyclndr .clndr-container .clndr-days-wrap .clndr-has-events .day-box {}
+.sudyclndr .clndr-container .clndr-days-wrap .clndr-day-cur .day-box .day-number{/*color: #fff;*/font-weight: normal;}
+.sudyclndr .clndr-container .clndr-days-wrap .clndr-today .day-box .day-number {color: #62605f;font-weight: normal;}
+.sudyclndr .clndr-container .clndr-events {display:none; width: 100%; height: 100%; position: absolute; left: 100%; top: 0; z-index: 10; background: #f8f8f8;}
+.sudyclndr .clndr-container .clndr-events .clndr-events-head { height: 30px; position: relative; background:#fff;}
+.sudyclndr .clndr-container .clndr-events .clndr-events-head .clndr-events-close { display: block; width: 30px; height: 30px; line-height: 30px; text-align: center; color: #999; position: absolute; right: 0; top: 50%; margin-top: -15px; font-size: 20px; font-family: "arial"}
+.sudyclndr .clndr-container .clndr-events .clndr-events-head h3 { margin:0 30px; height: 30px; line-height: 30px; font-weight: normal; font-size: 14px; text-align: center;}
+.sudyclndr .clndr-container .clndr-events .clndr-events-list { overflow: auto; list-style: none;}
+.sudyclndr .clndr-container .clndr-events .clndr-events-list li { border-bottom: 1px solid #DFDFDF; list-style: none;}
+.sudyclndr .clndr-container .clndr-events .clndr-events-list li a{ display: block; line-height: 20px; padding: 4px 10px 4px 6px; border-left:4px solid #f8f8f8;}
+.sudyclndr .clndr-container .clndr-events .clndr-events-list li a:hover{ background: #f2f2f2; border-left-color:#F6C491; color: #000}
+.clndr-days-table {
+    background: transparent;
+}
+.sudyclndr .clndr-container .clndr-days-week .clndr-week.clndr-week-7 .week-box {border-right: 1px solid #a2ccec;}
+
+/**事件输出**/
+.sudyclndr-event-wrap {}
+.sudyclndr-event-wrap .sudyclndr-event-date { font-size: 22px; font-weight: bold; height: 42px; line-height: 42px; border-bottom: 3px solid #666; color: #1A5493; margin-bottom: 10px;}
+.sudyclndr-event-wrap .sudyclndr-event-news { padding: 0 5px; border-bottom: 1px solid #666; margin-top: 10px;}
+.sudyclndr-event-wrap .sudyclndr-event-news h2 { color: #1A5493; font-size: 18px; font-weight: bold; line-height: 22px; margin-bottom: 3px;}
+.sudyclndr-event-wrap .sudyclndr-event-news h2 a { color: #1A5493; font-size: 18px;}
+.sudyclndr-event-wrap .sudyclndr-event-news p { line-height: 20px; color: #787878;}
+.sudyclndr-event-wrap .sudyclndr-event-news .event-news-filed { color: #555; font-weight: bold;}
+
+/**日历位置**/
+#calendar_wh {width: 250px;clear: both;padding-left: 0px;/* background: #f3f3f3; */position: absolute;right: 100px;}
+
+.wp-navi .sub-menu.tiaoz {padding: 0;background: #fff;width: 713px;}
+.rilineir {width: 210px;
+    float: left;    height: 240px;
+    margin-left: 20px;background: rgba(255,255,255,.8);padding-left: 15px}
+.rili_content {float: left; width: 100%; padding-bottom: 65px;}
+.wp-navi .panel-5 .wp-menu .menu-item.i2:hover {background: #f3f3f3;}
+.wp-navi .menu-item.i2>.sub-menu.tiaoz {left: -500px;}
+.rilineir h1 {font-size: 16px; color: #630560; line-height: 42px; padding: 10px 0;}
+.rili_news {width: calc(100% - 2.85em);overflow: hidden;/*text-overflow: ellipsis;*/white-space: pre-wrap;font-size: 15px;color: #630560;min-height: 24px;padding-bottom: 8px;line-height: 18px;}
+.rili_news a {font-size: 14px; color: #630560;}
+.rili_more {line-height: 46px;display: inline-block;position: absolute;bottom: -2px; right:0px; width:225px !important; text-align: center;background:rgba(255,255,255,.8);margin-bottom: 20px;font-size: 16px;font-weight: normal;color: #fff;}
+.rili_more a {display:inline-block;width:100%; font-size: 16px; color: #fff; background: #630560;}
+.rili_more a:hover {font-size: 16px; color: #fff; background: #630560;}
+
+
+.next_rili_more {display: inline-block; position: absolute; bottom: 0; left: 40px; right: 40px; width: auto; text-align: center; margin-bottom: 0px; font-size: 18px; font-weight: bold; color: #fff;}
+.next_rili_more a {display:inline-block;width:100%; font-size: 14px; color: #444444; }
+.next_rili_more a:hover {font-size: 14px; color: #006282; }
+
+.rili_box{height: 234px; overflow-y:auto;}
+.sudyclndr .clndr-container .clndr-days-wrap .clndr-day-w .day-box {border-left:none;display: none}
+.sudyclndr .clndr-container .clndr-days-wrap .clndr-day-w .day-box .weeks{padding:12px 0;font-size:16px; font-weight:bold; text-align:center;color: #00475e;}
+
+th.clndr-week.clndr-week-0 {
+    /* display: none !important; */
+}
+.clndr-dates a {
+    font-weight: normal;
+    font-size: 16px;
+    color: #630560;
+}
+.day-box {
+    text-align: center !important;
+}
+td.clndr-day.clndr-day-w {
+    display: none !important;
+}
+td.clndr-day.clndr-today {
+    background: rgba(255,255,255,.8);
+}

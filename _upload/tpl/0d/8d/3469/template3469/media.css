@@ -1,0 +1,220 @@
+﻿
+/**
+ * [xLarge Screen for PC]
+ * >=1200
+ */
+
+/**
+ * [Large Screen for PC & Pad]
+ * 960~1199
+ */
+@media screen and (max-width: 1239px) {
+.wrapper .inner { width:100%; margin:0 auto;}
+.wrapper .inner .mod {width:auto;padding:0 8px;}
+.nav .wp-menu .menu-item {}
+.nav .wp-menu .menu-item a.menu-link {padding: 0 38px;}
+.article .entry {
+    margin: 0 10px; 
+    
+}
+
+@media screen and (max-width: 1179px) {
+.post-21 .news_title {text-overflow: ellipsis;white-space:nowrap;overflow: hidden; }
+
+.events .post-6 li.news .news_box .news_wz .news_con .ui-circle {top:-38%;}
+
+}
+
+@media screen and (max-width: 1080px) { 
+
+.events .post-6 li.news .news_box .news_wz .news_con .ui-circle {top:-33%;}
+}
+
+
+/**
+ * [Medium Screen for Pad]
+ * 768~959
+ */
+@media screen and (max-width: 999px) {
+.wrapper .inner { width:100%; margin:0 auto;}
+.navi-aside-toggle,
+.navi-aside-search {display: block;}
+
+.head-right .site-lang {margin-top:0;}
+
+#header .inner{padding:10px 0px;height: auto;position:relative;background:none;}
+.header .head-left{ float:none;display:inline-block; width:100%; height:auto; text-align:center;}
+.header .sitelogo{float:none;margin-top:0px;}
+.header .sitelogo a{display:inline-block;width:100%;margin:0 auto;}
+.header .sitetitle {margin-top:38px;font-size:28px;}
+.header .head-main{display:none;}
+.header .head-right{ float:none; width:100%;margin-top:0px;}
+.header .head-right .searchbox{margin: 5px 0px; width:100%;}
+
+/*导航样式：后台绑定时也可以定义配置*/
+.wp-navi {padding:5px 0 }
+.wp-navi-slide .navi-slide-head {display: block;padding:0 10px;height: 40px;}
+.wp-navi-slide .wp-menu {background:#fff;}
+.wp-navi-slide .wp-menu .menu-item {display: inline-block;float:none; position: relative; z-index: 100;width:100%;padding-left:0px;text-align:left;border-bottom:1px solid #eee}
+.wp-navi-slide .wp-menu .menu-item .menu-switch-arrow{display: block;width: 38px;height: 38px;position: absolute;right: 6px;top: 1px;background: url(css/img/icons.png) no-repeat 10px -116px;}
+.wp-navi-slide .wp-menu .menu-item a.menu-link {display:block;padding: 0 20px;line-height: 40px;color: #343434;font-size: 14px; }
+.wp-navi-slide .wp-menu .menu-item a.menu-link.hover,
+.wp-navi-slide .wp-menu .menu-item.hover a.menu-link,
+.wp-navi-slide .sub-menu .sub-item.hover> a,
+.wp-navi-slide .sub-menu .sub-item a:hover{ text-decoration: none; color: #000; background-color: #eee; }
+.wp-navi-slide .sub-menu {display: none;position:relative;left: 0;bottom: 0px;top: 0px;min-width: 0px;z-index: 100;background: #fff;opacity: 0.8;}
+.wp-navi-slide .sub-menu .sub-item {position: relative;white-space: nowrap;vertical-align: top;border-bottom: 1px solid #eee;}
+.wp-navi-slide .sub-menu .sub-item a {display: block;color: #000;height: auto;line-height: 40px;padding: 0 36px;font-size: 14px;background:none;}
+.wp-navi-slide .sub-menu .sub-item a:hover { color: #000; background-color:#eee; display: block; }
+.wp-navi-slide .sub-menu .sub-menu {left:0;top: 0;}
+.wp-navi-slide .sub-menu .sub-menu .sub-item a {padding: 0 52px;}
+
+.nav .wp-menu .menu-item{width:25%;text-align:center}
+.nav .wp-menu .menu-item a.menu-link{padding:0;line-height:40px;font-size:14px}
+
+.main2 {background-size: cover;}
+.main2 .inner {padding: 30px 0;}
+.main2 .ml {float: none;width: 100%;margin-bottom: 30px;}
+.main2 .mr {float: none;width: 100%;}
+
+.download .col_news_list .news_list li.news {width: 100%;float: none;}
+
+.events .col_news {min-height:auto;margin-bottom: 20px;}
+.events .post-6 .news_main .news_con {bottom: 0;left: 0;width: 100%;}
+
+
+.shares ul{display:inline-block;width:auto; margin:0 auto;float:none;}
+
+
+}
+
+@media screen and (max-width:950px) {
+.events .ui-line {display:none;}
+.events .slick-prev, .events .slick-next {top: 74%;}
+.events .post-6 li.news .news_box .news_wz .news_con .ui-circle {top: -36px;}
+.events .post-6 li.news .news_box .news_wz {margin-top: 100px;}
+.events .post-6 li.news.slick-center .news_box .news_main .news_imgs img {-moz-transform: scale(1.3);-ms-transform: scale(1.3);-o-transform: scale(1.3);-webkit-transform: scale(1.3);transform: scale(1.3);}
+.events .post-6 li.news .news_box .news_wz .news_con {height: auto;}
+}
+
+@media screen and (max-width: 800px) {
+.events .slick-prev, .events .slick-next {top: 70%;}
+}
+
+/**
+ * [Small Screen for Smart Phone and Mini Pad]
+ * 480~767
+ */
+@media screen and (max-width: 767px) {
+#header .inner{height: auto;}
+.header .sitelogo a img{max-width: 85%;margin:5px 0px;}
+.header .sitelogo a{}
+.header .sitetitle {display:block;margin-top: 10px;font-size:18px;}
+
+.main1 {background-size: cover;}
+.main1 .inner {padding: 30px 0;}
+.main1 .ml{float:none; width:100%;margin-bottom:30px;}
+.main1 .mr{float:none; width:100%;} 
+
+.post-21 .news_list li.news {width:33.33%;}
+
+
+.post-11 .news_list .news .news_box .news_imgs {height: auto;padding-top: 66.7%;}
+
+.guide .col_news_con {width: auto;}
+.guide .col_news .col_news_box {margin-right: 0;}
+.guide .col_news_list .news_list {margin: 0 -20px;}
+.guide .col_news_list .news_box {margin: 0 20px;}
+.guide .col_news_list .news_list li.news {margin-top: 50px;}
+
+.events .col_news .col_news_box {margin-right:0;}
+
+
+.mbanner .focus-pagination {display:none;}
+/*栏目图片*/
+.l-banner{height: 235px;}
+.l-banner img{width:100%;height:100%;}
+#l-container .inner,
+#d-container .inner {padding:0px 0px;}
+#l-container.wrapper .inner .mod,
+#d-container.wrapper .inner .mod{padding:0;}
+
+.column-switch {display:block;}
+
+.col_menu .col_menu_head h3.col_name .col_name_text {display:block;line-height:40px;pa;padding: 0px 5px 0px 12px;font-size: 17px;}/**栏目名称图标**/
+.col_menu {width: 100%;float:none;margin-right:0px;position:relative;} 
+.col_menu .col_menu_con{display:none;border:0px solid #e4e4e4;}
+.col_metas .col_title h2 {font-size:18px;}/**当前栏目名称**/
+
+.col_list .wp_listcolumn .wp_column a {font-size:16px;}
+.col_list .wp_listcolumn .wp_column a .column-name {padding: 10px 10px 10px 20px;line-height: 30px;}
+.col_list .wp_listcolumn .sub_list a .column-name {padding: 10px 10px 10px 45px;}
+.col_list .wp_listcolumn .sub_list .sub_list a .column-name {padding: 5px 10px 5px 85px;}
+
+.col_news {width: 100%;min-height:0px;float:none;} /**栏目新闻**/
+.col_news .col_news_box{margin-left: 10px;margin-right: 10px;}
+.col_news_con { padding:5px 0px 10px 0px; margin:0 0px;}
+.col_news_con .news_list li.news {line-height:34px;}
+.col_news_con .news_list li.news span.news_title {width:73%;}/*标题*/
+.col_news_con .news_list li.news span.news_meta {}/*属性*/
+.rili2 .news_list li.news .news_wz .news_con {margin-left: 90px;}
+
+.wp_paging li.pages_count,.wp_paging li.page_jump{display:none;}
+
+.infobox { width:auto;padding:0px;  margin:0 10px; }
+
+.col_news_list .wp_entry img,
+.article .entry .read img{max-width: 100%;height:auto!important; }/**文章阅读部分图片大小限制**/
+
+}
+
+@media screen and (max-width: 599px) {
+.guide .col_news_con {padding:0 0 20px;}
+.guide .col_news_list .news_list li.news {width: 100%;margin-top: 20px;}
+
+.events .post-6 .news_main .news_con .news_title {width:100%;}
+.events .post-6 li.news.slick-center .news_box .news_main .news_imgs img {
+    -moz-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+}
+
+#footer .inner .ml {float: none;width: 100%;margin-bottom: 20px;}
+#footer .inner .mr {float: none;width: 100%;}
+}
+
+/**
+ * [xSmall Screen for Smart Phone]
+ * 480~767
+ */
+@media screen and (max-width: 479px) {
+.post-21 .news_list li.news {width: 50%;}
+
+.col_metas .col_path {height:auto;}
+
+.events .col_news_head {padding-top: 15px;}
+.events .post-6 .news_main .news_con .news_title {font-size:12px;}
+.events .col_news_list {margin-top: 30px;}
+.events .col_news_head .title {font-size:36px;}
+.events .col_news_head .time {font-size:20px;}
+.events .col_news_head .time2 {font-size:20px;}
+
+.article h1.arti_title {line-height: 28px;font-size:18px;}
+.article h2.arti_title {line-height: 28px;font-size: 16px;}
+
+}
+
+@media screen and (max-width: 399px) {
+
+.events .slick-prev, .events .slick-next {top: 60%;}
+}
+
+/**
+ * [Tiny Screen for Older Phone and Smart Phone]
+ * <319
+ */
+@media screen and (max-width: 319px) {
+    
+}

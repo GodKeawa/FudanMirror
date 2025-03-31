@@ -1,0 +1,62 @@
+﻿.jz_items .news_letters,.jz_items .news_letters1 {
+    color: #18306f;
+    font-size: 14px;
+    padding: 0;
+    margin: 0px 20px;
+    font-weight: bold;
+    background: url(images/line.png) center bottom no-repeat;
+    background-size: 100% 1px;
+    padding-bottom: 1px;line-height: 32px;clear:both;
+}
+.jz_items .news_letters.engineer{display:none;}
+.news_letters:before,.news_letters1:before {
+    content: "■";
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.jz_items .news_title a {
+    display: inline-block;
+    vertical-align: middle;
+    min-width: 100px;
+    white-space: nowrap;line-height: 30px;
+}
+li.items_news.news_2 {
+margin: 0;
+    position: relative;
+    float: left;
+    display: inline-block;
+    vertical-align: middle;
+    min-width: 100px;
+    white-space: nowrap;
+    max-width: 100px;
+}
+ul.name {
+    margin: 0;
+    padding: 0 20px;
+    padding-left: 70px;
+    position: relative;
+}
+.item-tit .tit {
+    font-size: 14px;
+    color: #fff;
+    padding-left: 32px;
+    font-weight: bold;
+    line-height: 22px;
+    height: 22px;
+    background: url(images/sm.png) left top no-repeat;
+  background-position: -6px -6px;
+}
+.ui-item-ind1 .item-tit, .item-tit2 {
+    background: #18306f;
+}
+.item-tit {
+    padding: 6px 0px;
+    position: relative;
+}
+.teacher-link {
+    background-color: #18306f;
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+    margin: 10px 0;
+}
